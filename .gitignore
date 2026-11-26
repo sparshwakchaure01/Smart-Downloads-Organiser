@@ -1,0 +1,8 @@
+Reports/
+*.log
+OperationLog_*.csv
+UndoLog_*.csv
+Preview_*.csv
+Duplicates_*.csv
+Summary_*.txt
+rules.json

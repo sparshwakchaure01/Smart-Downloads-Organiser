@@ -1,0 +1,17 @@
+{
+  "_author": "Smart Downloads Organiser - made by Sparsh",
+  "_comment": "OPTIONAL. Copy this file to rules.json and edit it. The tool works fine without it.",
+  "_how_it_works": "If a file or folder NAME contains a keyword (not case-sensitive), it goes to 'My Folders\\<folder>'. First match wins.",
+  "rules": [
+    {
+      "_comment": "Example: anything with 'acme' or 'client-x' in its name goes to My Folders\\Work",
+      "folder": "Work",
+      "keywords": ["acme", "client-x"]
+    },
+    {
+      "_comment": "'folder' must be a single name: no slashes, no drive letters",
+      "folder": "Family",
+      "keywords": ["passport", "family-photo"]
+    }
+  ]
+}
